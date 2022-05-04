@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,50 +10,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/litera/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+
+
+    ">
     <title>Title</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
+        
         .bg-main {
             background-color: #253dc0;
             width: 100%;
             height: auto;
         }
-
+        
         .content-box {
             display: flex;
             justify-content: space-between;
             padding: 25px 30px;
         }
-
+        
         .content-box i {
             color: #fff;
         }
-.m-radius{
-    -webkit-border-top-left-radius: 24px;
+        
+        .main-content {
+            background: #fff;
+            /* border-radius: 16px; */
+            -webkit-border-top-left-radius: 24px;
             -webkit-border-top-right-radius: 24px;
             -moz-border-radius-topleft: 24px;
             -moz-border-radius-topright: 24px;
             border-top-left-radius: 24px;
             border-top-right-radius: 24px;
-}
-        .main-content {
-            background: #fff;
-            /* border-radius: 16px; */
-            
             padding: 50px;
         }
-
- .box-seciton-head h4{
-     font-weight: 900;
- }
- .box-seciton-head h4 span{
-     color: #253dc0;
-    }
-    
-
+        
+        .box-seciton-head h4 {
+            font-weight: 900;
+        }
+        
+        .box-seciton-head h4 span {
+            color: #253dc0;
+        }
+        
+        .card-img {
+            height: 300px;
+            /* width: 300px; */
+            margin-bottom: 100px;
+            /* margin-top: 10px;
+            margin-left: 35px; */
+        }
+        
+        .btn-lg {
+            background-color: #F79E09;
+            margin: 80px;
+            width: 320px;
+            height: 100px;
+            border: none;
+        }
+        
+        .fa-solid {
+            color: #F79E09;
+        }
+        
+        .btn {
+            border-left-style: none;
+            height: 43px;
+            border-color: #D3D3D3;
+        }
+        
+        .form-control {
+            border-right-style: none;
+            border-color: #D3D3D3;
+        }
     </style>
 </head>
 
@@ -67,27 +101,27 @@
                             <i class="fa fa-share" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="main-content m-radius">
-                        <div class="head-profile-heading"> 
+                    <div class="main-content">
+                        <div class="head-profile-heading">
                             <div class="card border-0">
-                                <img src="img/9thscreenvector.png" class="card-img" alt="...">
-                              </div>     
-                              
+                                <img src="img/cool-background.svg" class="card-img" alt="...">
+                            </div>
+
                             <div class="row">
                                 <div class="box-seciton-head w-100">
                                     <h4>Share Your <span>Location</span></h4>
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <input type="text" class="form-control" placeholder="Select Location" aria-label="Recipient's username" aria-describedby="button-addon2">
                                         <div class="input-group-append">
-                                          <button class="btn btn-outline-secondary" style="border-radius: 0px;" type="button" id="button-addon2"><i class="fas fa-location" style="color: #253dc0;" ></i></button>
+                                            <button class="btn btn-outline-secondary" style="border-radius: 0px;" type="button" id="button-addon2"><i class="fa-solid fa-location-crosshairs fa-2x"></i></button>
                                         </div>
-                                      </div>
+                                    </div>
                                     <!-- <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"> -->
                                 </div>
                             </div>
 
                             <div class="row">
-                                <button type="button" class="btn btn-primary btn-lg mx-auto">Large button</button>
+                                <button type="button" class="btn btn-primary btn-lg mx-auto">Next</button>
                             </div>
                         </div>
                     </div>
