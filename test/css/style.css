@@ -1,0 +1,11 @@
+.close-card-p{
+    font-size:12px;
+    color: #777777;
+}
+.closebtn{
+    font-weight: 600;
+    border: solid 1px #bdb9b9;
+    color: #000;
+    padding: 7px 35px;
+
+}
